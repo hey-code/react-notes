@@ -31,3 +31,22 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.note-content, .note-delete {
+  display: inline;
+}
+
+.note-delete {
+  color: #ff1100;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.note-delete:hover {
+  background: #ff1100;
+  color: #fff;
+}

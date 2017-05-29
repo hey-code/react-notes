@@ -1,6 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 class AddNote extends Component {
+
+  static propTypes = {
+    onAddNote: PropTypes.func.isRequired
+  }
 
   state = {
     text: ""
